@@ -36,7 +36,7 @@ a {
     color: #333;
 }
 
-                                /* ---- CSS for Navbar starts ------ */
+                                /* ----Soe: CSS for Navbar starts ------ */
 
 .navbar {
     height: 90px;
@@ -366,6 +366,7 @@ a {
     color: black;
     transform: scale(1.05);
 }
+/* -------- Soe: PROJECT PAGE End ------- */
 
 
                                      /* -------- Soe: CAMPAIGN PAGE starts------- */
@@ -586,6 +587,7 @@ a {
 .pro-impact::before {
     background-image: url("image/Energy-efficiency-in-buildings.jpeg");
 }
+ /* -------- Soe: CAMPAIGN PAGE end ------- */
 
                                     /* ---- Soe: FORM VALIDATION starts --- */
 
@@ -650,6 +652,8 @@ a {
 }
 
 /* ---- FORM VALIDATION end --- */
+
+
 
 
                                    /* ---- Piyush: CONTACT PAGE  ---- */
