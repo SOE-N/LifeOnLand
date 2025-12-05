@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Sean Glennon">
+	<title>About – Life On Land</title>
+
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Line Icons -->
+    <link rel="stylesheet" href="https://cdn.lineicons.com/5.0/lineicons.css" />
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+	<!-- Unified CSS -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+	<!-- NAVBAR -->
+	<nav id="navbar" class="navbar py-1 navbar-expand-xl shadow fixed-top">
+		<div class="container px-1 d-flex justify-content-between align-items-center">
+			<div class="d-flex align-items-center gap-3">
+				<img id="logo" src="image/lifeofland_logo.png" alt="Life on Land logo">
+				<h1 id="title">Life on Land</h1>
+			</div>
+
+			<div class="flex-grow-1 d-lg-flex justify-content-center search-box">
+				<input type="text" class="form-control search-input" placeholder="Search...">
+			</div>
+
+			<button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#top-navbar" aria-controls="top-navbar">
+				<i class="lni lni-cloud-sun"></i>
+			</button>
+
+			<div class="offcanvas offcanvas-end" tabindex="-1" id="top-navbar">
+				<ul class="navbar-nav ms-lg-auto p-4 p-lg-4">
+					<li class="nav-item px-3 py-lg-4"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item px-3 py-lg-4"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item px-3 py-lg-4"><a class="nav-link" href="forest.html">Forests</a></li>
+                    <li class="nav-item px-3 py-lg-4"><a class="nav-link" href="wildlife.html">Wildlife</a></li>
+                    <li class="nav-item px-3 py-lg-4"><a class="nav-link" href="project.html">Project</a></li>
+                    <li class="nav-item px-3 py-lg-4"><a class="nav-link" href="campaign.html">Campaign</a></li>
+                    <li class="nav-item px-3 py-lg-4"><a class="nav-link" href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+</header>
+
+<section class="page-section">
+	<div class="container text-center">
+		<h1 class="section-heading">About Our Mission</h1>
+	</div>
+
+	<div class="container mt-4">
+		<div class="row g-4">
+			<div class="col-lg-6">
+				<div class="hero-image-wrapper">
+					<img src="image/nature2.jpg" class="main-img" alt="Nature">
+				</div>
+			</div>
+			<div class="col-lg-6 d-flex flex-column justify-content-center">
+				<p class="body-text">
+					Our mission is to raise awareness about protecting nature, supporting sustainability,
+					and defending life on land. From forests to wildlife, we focus on education, action,
+					and collaboration to help achieve the United Nations Sustainable Development Goal 15.
+				</p>
+				<p class="body-text">
+					By combining youth-led initiatives, community projects, and global campaigns, we aim to
+					restore ecosystems, prevent biodiversity loss, and inspire people to take meaningful
+					action for the planet.
+				</p>
+			</div>
+		</div>
+
+		<!-- Facts & Goals -->
+		<div class="row mt-5 g-4">
+			<div class="col-md-4">
+				<div class="icon-card">
+					<div class="icon"></div>
+					<h4>Nature First</h4>
+					<p>We promote responsible use of land and resources that keeps ecosystems healthy.</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="icon-card">
+					<div class="icon"></div>
+					<h4>Biodiversity</h4>
+					<p>From pollinators to apex predators, every species has a vital role.</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="icon-card">
+					<div class="icon"></div>
+					<h4>Restoration</h4>
+					<p>We support reforestation, restoration, and long-term conservation projects.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row mt-5">
+			<div class="col-lg-8 mx-auto">
+				<div class="info-card text-center">
+					<h3>Our Goals</h3>
+					<p class="body-text mb-0">
+						To inform, inspire, and empower people—especially young leaders—to protect life on land through
+						education, advocacy, volunteering, and direct conservation work.
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+<footer class="site-footer">
+	<div class="container text-center">
+		<p>© 2025 Life On Land | About</p>
+	</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
